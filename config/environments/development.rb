@@ -1,3 +1,5 @@
+ENV['REDISTOGO_URL'] = 'redis://redistogo:1e0876ceab06df167b9e6a8868428c95@soapfish.redistogo.com:11050/'
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
