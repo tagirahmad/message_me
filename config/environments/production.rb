@@ -93,4 +93,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.web_socket_server_url = 'wss://message-me-coffe-chat.herokuapp.com/cable'
+  config.action_cable.allowed_request_origins = ['https://message-me-coffe-chat.herokuapp.com', 'http://message-me-coffe-chat.herokuapp.com']
 end
