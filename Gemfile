@@ -65,3 +65,4 @@ gem 'jquery-rails'
 gem 'rubocop', '~> 1.8', require: false
 gem 'semantic-ui-sass'
 gem 'hirb'
+gem 'redis'
