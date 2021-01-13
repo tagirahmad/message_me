@@ -1,0 +1,9 @@
+production:
+  adapter: redis
+  url: redis://redistogo:1e0876ceab06df167b9e6a8868428c95@soapfish.redistogo.com:11050/
+
+development:
+  adapter: async
+
+test:
+  adapter: async
